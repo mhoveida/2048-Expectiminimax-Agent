@@ -1,6 +1,6 @@
 Based on the provided source code, this project implements an **Intelligent Agent** designed to play the game **2048** using advanced search algorithms and heuristic evaluations.
 
-### ## Core Architecture: Expectiminimax
+### Core Architecture: Expectiminimax
 
 The decision-making process of the `IntelligentAgent` is driven by the **Expectiminimax** algorithm. This is an extension of the Minimax algorithm used in games with an element of chance (like 2048, where new tiles are spawned randomly).
 
@@ -11,7 +11,7 @@ The decision-making process of the `IntelligentAgent` is driven by the **Expecti
 
 ---
 
-### ## Heuristic Evaluation
+### Heuristic Evaluation
 
 Since the agent cannot search until the end of the game, it uses an `evaluate` function to score the quality of a grid state. The final score is a weighted sum of several factors:
 
@@ -26,7 +26,7 @@ Since the agent cannot search until the end of the game, it uses an `evaluate` f
 
 ---
 
-### ## Project Structure
+### Project Structure
 
 The repository is organized into several functional components:
 
@@ -36,9 +36,7 @@ The repository is organized into several functional components:
 * **`Displayer.py`**: Provides a color-coded terminal interface to visualize the game in real-time.
 * **`Heuristics.py`**: A utility script used to run automated experiments and find the optimal weights for the evaluation function.
 
-### ### Requirements
+### Requirements
 
 * **Python 3**
 * **NumPy**
-
-Would you like to know more about how the **Iterative Deepening** logic ensures the agent always returns a move before the time limit expires?
