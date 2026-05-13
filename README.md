@@ -1,4 +1,4 @@
-Based on the provided source code, this project implements an **Intelligent Agent** designed to play the game **2048** using advanced search algorithms and heuristic evaluations.
+This project implements an **Intelligent Agent** designed to play the game **2048** using advanced search algorithms and heuristic evaluations.
 
 ### Core Architecture: Expectiminimax
 
