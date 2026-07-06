@@ -1,5 +1,3 @@
-"""Maddison Hoveida, UNI: mh4572"""
-
 import time
 import numpy as np
 from BaseAI import BaseAI
